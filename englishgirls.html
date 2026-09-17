@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <!-- /** -----------------------------------------------
+    MARK: ページ設定・ヘッダー情報
+  -------------------------------------------------**/ -->
+  <head>
+
+    <!-- 文字コード -->
+    <meta charset="UTF-8">
+
+    <!-- ブラウザで表示されるタイトル -->
+    <title>キャンペーンバナー（X/Instagram）</title>
+
+     <!-- ↓★ここにGoogle Fontsのコードを差し込みます！ -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+    <!-- ↑★ここまで -->
+
+    <!-- スタイルシート -->
+    <link href="assets/css/reset.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/style.css?v=20260917-3" rel="stylesheet" type="text/css">
+
+    <!-- 表示領域をデバイス依存にする、viewportを設定する -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+
+  </head>
+
+<body>
+
+<!-- /** -----------------------------------------------
+  MARK: ナビゲーション
+-------------------------------------------------**/ -->
+
+<button class="hamburger-btn" id="js-hamburger" type="button" aria-controls="js-nav" aria-expanded="false" aria-label="メニューを開く">
+  <span></span><span></span><span></span>
+</button>
+<nav class="mainvisual-nav" id="js-nav" aria-label="メインナビゲーション">
+  <ul>
+    <!-- index.html#ID名 で、上の層に直接ジャンプ -->
+    <li><a href="index.html#works">Works</a></li>
+    <li><a href="index.html#about">About</a></li>
+    <li><a href="index.html#skills">Skills</a></li>
+    <li><a href="index.html#contact">Contact</a></li>
+  </ul>
+</nav>
+
+
+<!-- /** -----------------------------------------------
+  MARK: タイトル
+-------------------------------------------------**/ -->
+
+<main class="work-detail-main">
+  <!-- タイトル -->
+  <h1 class="detail-title">キャンペーンバナー（X/Instagram）</h1>
+
+  <!-- タグエリア -->
+  <div class="detail-tags">
+    <span class="tag-blue">#バナー</span>
+    <span class="tag-blue">#自主制作</span>
+  </div>
+
+  <!-- 画像エリア -->
+  <div class="detail-main-img">
+    <img src="../images/englishgirls-mockup-mv.jpg" alt="キャンペーンバナー（X/Instagram）の制作物画像">
+  </div>
+
+  <!-- /** -----------------------------------------------
+    MARK: 制作概要
+  -------------------------------------------------**/ -->
+  <div class="detail-summary-box">
+    <p>（SHElikes PROデザイナーの実践課題）</p>
+    <p>架空のX/Instagram掲載用バナー</p>
+    <p>・LPデザインカンプ（PC）</p>
+    <br>
+    <p>【制作期間】 6時間</p>
+    <p>【使用ツール】Photoshop</p>
+  </div>
+
+
+<!-- /** -----------------------------------------------
+  MARK: 目次
+-------------------------------------------------**/ -->
+
+
+<div class="detail-toc-box">
+    <p class="toc-label">目次</p>
+    <ul class="toc-list">
+      <li>
+        <a href="#production">制作物</a>
+        <!-- 「制作物」の子要素 -->
+        <ul class="toc-sub-list">
+          <li><a href="#banner-x">X用バナー</a></li>
+          <li><a href="#banner-instagram">Instagram用バナー</a></li>
+        </ul>
+      </li>
+      
+      <li><a href="#requirements">課題要件</a></li>
+      
+      <li>
+        <a href="#information">情報設計</a>
+        <!-- 「情報設計」の子要素 -->
+        <ul class="toc-sub-list">
+          <li><a href="#user-story">ユーザーストーリー</a></li>
+        </ul>
+      </li>
+      
+      <li>
+        <a href="#visual-design">ビジュアルデザイン</a>
+        <!-- 「ビジュアルデザイン」の子要素 -->
+        <ul class="toc-sub-list">
+          <li><a href="#color">配色</a></li>
+        </ul>
+      </li>
+      
+      <li><a href="#points">デザインの工夫</a></li>
+      <li><a href="#learning">本課題で学んだこと</a></li>
+    </ul>
+  </div>
+
+</main>
+
+
+
+
+
+
+
+<!-- /** -----------------------------------------------
+  MARK: 制作物
+-------------------------------------------------**/ -->
+
+<section id="production" class="detail-section">
+  <!-- セクションのグレーの見出し -->
+  <h2 class="section-title">制作物</h2>
+
+  <!-- 制作物の画像エリア -->
+  <div class="production-img-box">
+    <!-- ここにメインの制作物（カンプ全体やLPの長尺画像など）のパスを指定してね！ -->
+    <img src="images/worklounge-production-all.jpg" alt="コワーキングスペースLP 制作物全体画像">
+  </div>
+</section>
+
+
+
+
+
+
+
+<!-- /** -----------------------------------------------
+  MARK: 課題要件
+-------------------------------------------------**/ -->
+<section id="requirements" class="detail-section">
+  <!-- セクションのグレーの見出し -->
+  <h2 class="section-title">課題要件</h2>
+
+  <!-- 白い背景の要件書ボックス -->
+  <div class="requirements-box">
+    <h3 class="requirements-subtitle">要件書</h3>
+    
+    <table class="requirements-table">
+      <tr>
+        <th>目的</th>
+        <td>
+          既存会員からの紹介による新規入会者の獲得<br>
+          お友達紹介キャンペーンの利用で、2週間の実施期間内に50名の獲得を目指す
+        </td>
+      </tr>
+      <tr>
+        <th>ターゲット</th>
+        <td>
+          20代女性（英会話初心者）<br>
+          趣味で学んだり外国人の方との交流を図りたいライトな層
+        </td>
+      </tr>
+      <tr>
+        <th>掲載場所</th>
+        <td>
+          ・Instagramのフィード<br>
+          ・X（旧Twitter）
+        </td>
+      </tr>
+      <tr>
+        <th>バナーの飛び先</th>
+        <td>キャンペーン用のLP（ランディングページ）</td>
+      </tr>
+      <tr>
+        <th>トンマナ</th>
+        <td>
+          明るくポップで楽しい雰囲気<br>
+          夏のキャンペーンのため、夏らしさを感じる色味
+        </td>
+      </tr>
+      <tr>
+        <th>入れたい要素</th>
+        <td>
+          <strong>＜文言＞</strong><br>
+          ・一緒にお得！<br>
+          ・夏のお友達紹介キャンペーン<br>
+          ・あなたにもお友達にも5,000円プレゼント<br>
+          ・期間：2024年8月20日〜9月30日<br>
+          <br>
+          <strong>＜画像・素材＞</strong><br>
+          ・”あなたとお友達”を表現するための人物の写真<br>
+          ・英会話スクールであることがわかる要素や写真<br>
+          ・English Girlsのロゴ
+        </td>
+      </tr>
+    </table>
+  </div>
+</section>
+
+
+
+<!-- /** -----------------------------------------------
+  MARK: ペルソナ
+-------------------------------------------------**/ -->
+
+<section id="persona" class="detail-section">
+  <!-- セクションのグレーの見出し -->
+  <h2 class="section-title">ペルソナ</h2>
+
+  <!-- 白い背景のペルソナボックス -->
+  <div class="persona-box">
+    <h3 class="persona-subtitle">ペルソナ</h3>
+    
+    <table class="persona-table">
+      <tr>
+        <th>基本プロフィール</th>
+        <td>
+          ・川上 望美 (32)<br>
+          ・東京都目黒区在住<br>
+          ・既婚、夫と2人暮らし<br>
+          ・IT系メガベンチャー勤務。8年目。広報部部長
+        </td>
+      </tr>
+      <tr>
+        <th>ライフスタイル・価値観</th>
+        <td>
+          ・平日の過ごし方：フルタイム勤務、夜は会食や副業<br>
+          ・休日の過ごし方：本屋や展示会めぐり、スキルアップのための勉強、夫や友人と過ごす<br>
+          ・趣味／関心ごと：キャリアアップ、インテリア、デザイン、人との会話<br>
+          ・大切にしてること：成長、自由、選択肢、上質な環境
+        </td>
+      </tr>
+      <tr>
+        <th>背景・課題</th>
+        <td>
+          ・リモートワーク中心から出社回帰になってきていると思っている<br>
+          ・せっかく外に出るなら快適な空間で過ごしたい
+        </td>
+      </tr>
+    </table>
+  </div>
+</section>
+
+
+
+
+<!-- /** -----------------------------------------------
+  MARK: 情報設計
+-------------------------------------------------**/ -->
+<section id="information" class="detail-section">
+  <!-- セクションのグレーの見出し -->
+  <h2 class="section-title">情報設計</h2>
+
+  <!-- 白い背景の情報設計ボックス -->
+  <div class="info-box">
+    <table class="info-table">
+      <tr>
+        <!-- colspan="2" で、左上の空欄と右上の「届けたい価値」のエリアを合体させてヘッダーにします -->
+        <th colspan="2" class="info-header-cell">届けたい価値</th>
+      </tr>
+      <tr>
+        <th class="info-side-th">
+          1．<br>
+          タイムパフォーマンスの<br>最大化と<br>
+          「贅沢な集中環境」
+        </th>
+        <td>
+          多忙な毎日の中で、スキルアップや副業、インプットの時間を確保したいペルソナにとって、時間は最も貴重な資産です。<br>
+          家でもオフィスでもない「第3の場所」を持つことで、移動や雑音に邪魔されず、スイッチを切り替えて一瞬で100%集中モードに入れる効率的な時間を提供します。<br>
+          「仕事終わりの1時間を、2時間分にする集中空間」「無駄のない洗練された動線」など、タイムパフォーマンスの良さと、集中を妨げない上質な設備・環境をアピールします。
+        </td>
+      </tr>
+      <tr>
+        <th class="info-side-th">
+          2．<br>
+          妥協のない<br>
+          「自己投資」にふさわしい、<br>
+          上質で感性を刺激する空間
+        </th>
+        <td>
+          本屋や展示会巡りを好み、インテリアやデザインに関心が高く、「上質な環境」を大切にするペルソナは、ただ席があるだけの安価なスペースでは満足しないと考えました。<br>
+          身を置くだけでモチベーションが上がり、自分の感性が磨かれていくような、セルフイメージを高めてくれる高付加価値な空間を提供します。<br>
+          LP全体のデザイン自体を、ペルソナの好みに刺さる洗練されたモダンなトンマナに仕上げます。チープさを排除し、インテリアのこだわりや洗練された館内写真を大きく見せることで、「ここを利用する自分が好き、心地よい」と思える特別感を演出します。
+        </td>
+      </tr>
+      <tr>
+        <th class="info-side-th">
+          3．<br>
+          孤立しない、<br>
+          心地よい距離感の<br>
+          「緩やかな繋がり<br>（コミュニティ）」
+        </th>
+        <td>
+          平日に会食や副業をこなし、人との会話を大切にする一方で、役職（部長職）ゆえの責任や多忙さも抱えています。<br>
+          社内や家庭とはまた違う、「日々仕事や勉強に励む意欲的な大人たち」が集まる空間特有の、心地よい刺激と安心感を提供します。<br>
+          干渉されすぎないけれど、同じように頑張る人の気配を感じることで、キャリアアップへのモチベーションを維持できます。<br>
+          コワーキングスペースが「意欲的な人々が集まるコミュニティとしても機能している」という点を活かし、単なる「作業スペース」ではなく、「大人のためのビジネスコミュニティ」として人生の選択肢や可能性を広げてくれる場所であることを伝えます。
+        </td>
+      </tr>
+    </table>
+  </div>
+
+
+  <div class="information-img">
+    <img src="./images/wf-improvement-worklounge.jpg" alt="情報設計改善の画像">
+  </div>
+
+
+
+
+</section>
+
+
+
+<!-- /** -----------------------------------------------
+  MARK: デザインコンセプト
+-------------------------------------------------**/ -->
+
+<section id="concept" class="detail-section">
+  <!-- セクションのグレーの見出し -->
+  <h2 class="section-title">デザインコンセプト</h2>
+
+  <!-- /** -----------------------------------------------
+    MARK: ムードボード
+  -------------------------------------------------**/ -->
+  <div class="moodboard-area">
+    <p class="moodboard-label">ムードボード</p>
+    <!-- 後で実際のムードボード画像のパスに書き換えてね！ -->
+    <img src="images/mood board.jpg" alt="ムードボード" class="moodboard-img">
+    <p class="citation-text">
+      画像引用元<br>
+      Unsplash<br>
+      https://jp.pinterest.com/pin/1137792293384146786/
+    </p>
+  </div>
+
+  <!-- /** -----------------------------------------------
+    MARK: デザイン方針
+  -------------------------------------------------**/ -->
+  <div class="direction-box">
+    <h3 class="direction-title">Design Direction</h3>
+    
+    <div class="direction-text">
+      <p>ペルソナである「上品で知的な女性」をイメージし、落ち着きのあるネイビーをメインカラーに選定しました。</p>
+      <p>ネイビーの中でも重くなりすぎない、やわらかさを感じるトーンを採用することで、知性と親しみやすさを両立しています。</p>
+      <p>また、ベージュやアイボリーを組み合わせることで温かみをプラスし、洗練された印象を演出しました。</p>
+      <p>写真やインテリア、小物には天然素材や上質な質感のものを選び、チープな印象にならないよう高級感と落ち着きのある世界観を意識しています。</p>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- /** -----------------------------------------------
+  MARK: デザインの工夫
+-------------------------------------------------**/ -->
+<section id="points" class="detail-section">
+  <!-- セクションのグレーの見出し -->
+  <h2 class="section-title">デザインの工夫</h2>
+
+  <!-- 工夫エリア全体を包むボックス -->
+  <div class="points-container">
+    
+    <!-- /** -----------------------------------------------
+      MARK: CONCEPT画像
+    -------------------------------------------------**/ -->
+    <div id="concept-img" class="point-block">
+      <h3 class="point-sub-title">CONCEPT画像</h3>
+      <div class="point-img-wrap">
+        <!-- 後で実際の画像パスに書き換えてね！ -->
+        <img src="images/points-concept.jpg" alt="CONCEPT画像の工夫">
+      </div>
+      <div class="point-desc-box">
+        <p>ペルソナを意識した写真を選定し、ターゲットが自分自身を重ね合わせやすく、共感を抱けるような女性のビジュアルを採用しました。</p>
+      </div>
+    </div>
+
+    <!-- /** -----------------------------------------------
+      MARK: セクションごとの情報整理
+    -------------------------------------------------**/ -->
+    <div id="info-cleanup" class="point-block">
+      <h3 class="point-sub-title">セクションごとの情報整理</h3>
+      <div class="point-img-wrap">
+        <!-- 後で実際の画像パスに書き換えてね！ -->
+        <img src="images/points-info.jpg" alt="セクションごとの情報整理の工夫">
+      </div>
+      <div class="point-desc-box">
+        <p>背景にはグラデーションを採用し、内容の関連性が高いセクションごとにまとめて配色を切り替えました。<br>
+        「コンセプト」「スペース」では施設の魅力や特徴を伝えるセクションとして、「システム」「プラン」では利用方法や料金など具体的な情報を伝えるセクションとしてグルーピングし、情報のまとまりが伝わりやすいよう意識しました。</p>
+      </div>
+    </div>
+
+    <!-- /** -----------------------------------------------
+      MARK: 各種サービス・設備のアイコン化
+    -------------------------------------------------**/ -->
+    <div id="icons" class="point-block">
+      <h3 class="point-sub-title">各種サービス・設備のアイコン化</h3>
+      <div class="point-img-wrap">
+        <!-- 後で実際の画像パスに書き換えてね！ -->
+        <img src="images/points-icons.jpg" alt="各種サービス・設備のアイコン化の工夫">
+      </div>
+      <div class="point-desc-box">
+        <p>各種サービス・設備をアイコン化することで、共通する内容を視覚的に把握しやすくし、情報を直感的に理解できるようにしました。</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+
+<!-- /** -----------------------------------------------
+  MARK: 本課題で学んだこと
+-------------------------------------------------**/ -->
+<section id="learning" class="detail-section">
+  <!-- セクションのグレーの見出し -->
+  <h2 class="section-title">本課題で学んだこと</h2>
+
+  <!-- 学んだことのコンテンツボックス -->
+  <div class="learning-container">
+    
+    <!-- /** -----------------------------------------------
+      MARK: ヒアリング・認識合わせの重要性
+    -------------------------------------------------**/ -->
+    <div class="learning-block">
+      <!-- ★h3からpタグに変更しました！ -->
+      <p class="learning-sub-title">ヒアリング・認識合わせの重要性</p>
+      <ul class="learning-list">
+        <li>ワイヤーフレームだけでは見えない情報や背景も、ヒアリングを通して明らかになること。</li>
+        <li>（課題では、クライアントと制作者の打ち合わせ動画をもとに制作を進行）</li>
+        <li>制作目的・ターゲット・課題・ゴールを正しく理解することで、デザインの方向性が明確になる。</li>
+        <li>ご要望をそのまま形にするのではなく、「なぜこのデザインにするのか」を考え、目的達成につながる提案を行うことがデザイナーの役割である。</li>
+      </ul>
+    </div>
+
+    <!-- /** -----------------------------------------------
+      MARK: 制作前の下準備の重要性
+    -------------------------------------------------**/ -->
+    <div class="learning-block">
+      <!-- ★h3からpタグに変更しました！ -->
+      <p class="learning-sub-title">制作前の下準備の重要性</p>
+      <ul class="learning-list">
+        <li>制作前にムードボードを作成することで、デザインの方向性や世界観を整理・共有できる。</li>
+        <li>デザインの軸を事前に定めることで、制作中の迷いや認識のズレを防げる。</li>
+        <li>一貫性のあるデザインにつながり、手戻りの削減や制作効率の向上につながる。</li>
+      </ul>
+    </div>
+
+    <!-- /** -----------------------------------------------
+      MARK: まとめ
+    -------------------------------------------------**/ -->
+    <div class="learning-block">
+      <!-- ★h3からpタグに変更しました！ -->
+      <p class="learning-sub-title">まとめ</p>
+      <ul class="learning-list">
+        <li>デザインは単に見た目を整えるだけではなく、ヒアリングを通して課題や目的を理解し、その目的を達成するための最適なデザインを提案するプロセスである。</li>
+      </ul>
+    </div>
+
+    <!-- /** -----------------------------------------------
+      MARK: Backボタン
+    -------------------------------------------------**/ -->
+    <div class="back-btn-wrap">
+      <!-- 下の階層から元のトップページ（index.html）のWorksセクションに戻れるようにしています -->
+      <a href="index.html" class="back-btn">Back</a>
+    </div>
+
+  </div>
+</section>
+
+
+
+
+
+
+
+    <!-- /** -----------------------------------------------
+      MARK: JavaScript
+    -------------------------------------------------**/ -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript">
+      //jQueryの記述をここに書く
+      $(function() {
+  
+      });
+    </script>
+
+    <script src="js/navigation.js" defer></script>
+  <script src="js/scroll-reveal.js" defer></script>
+</body>
+
+</html>

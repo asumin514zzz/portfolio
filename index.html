@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <!-- /** -----------------------------------------------
+    MARK: ページ設定・ヘッダー情報
+  -------------------------------------------------**/ -->
+  <head>
+
+    <!-- 文字コード -->
+    <meta charset="UTF-8">
+
+
+    <!-- ブラウザで表示されるタイトル -->
+    <title>Asumi Portfolio</title>
+
+    <!-- ↓★ここにGoogle Fontsのコードを差し込みます！ -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Noto+Sans+JP:wght@400;700&family=Shippori+Mincho:wght@400;700&display=swap" rel="stylesheet">
+    <!-- ↑★ここまで -->
+
+
+    <!-- スタイルシート -->
+    <link href="assets/css/reset.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/style.css?v=20260917-3" rel="stylesheet" type="text/css">
+
+    <!-- 表示領域をデバイス依存にする、viewportを設定する -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  </head>
+
+
+<body>
+
+
+  <!-- /** -----------------------------------------------
+  MARK: メインビジュアル
+-------------------------------------------------**/ -->
+
+<section class="top" id="top">
+  <div class="mainvisual">
+
+    <!-- 1. スマホ用のハンバーガーボタン（最初に見えるようにする） -->
+<!-- /** -----------------------------------------------
+      MARK: ナビゲーション
+    -------------------------------------------------**/ -->
+    <button class="hamburger-btn" id="js-hamburger" type="button" aria-controls="js-nav" aria-expanded="false" aria-label="メニューを開く">
+  <span></span><span></span><span></span>
+</button>
+<nav class="mainvisual-nav" id="js-nav" aria-label="メインナビゲーション">
+      <ul>
+        <li><a href="#top">Top</a></li>
+        <li><a href="#works">Works</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="mainvisual-bg">
+      <img src="images/mv-orangemoon.jpg" alt="メインビジュアル背景">
+    </div>
+
+    <!-- 4. 中央のテキストエリア -->
+    <div class="mainvisual-content">
+      <p class="mv-top-title">Asumi Portfolio</p>
+      
+      <div class="mv-decoration">
+        <span class="deco-line"></span>
+        <!-- 中央のダイヤの飾り -->
+        <img src="images/deco-kirakira.png" alt="ダイヤ飾り" class="deco-diamond">
+        <span class="deco-line"></span>
+      </div>
+
+      <h1>
+        <span class="color-white">Warm Ideas,</span><br>
+        <span class="color-blue">Clear Direction.</span>
+      </h1>
+      
+      <p class="mainvisual-sub-text">
+        <span class="color-white">温かいアイディアを</span>
+        <span class="color-blue">伝わるデザインへ</span>
+      </p>
+      
+      <div class="mv-decoration-bottom">
+        <!-- 中央下のダイヤの飾り -->
+        <img src="images/deco-kirakira.png" alt="ダイヤ飾り" class="deco-diamond">
+    </div>
+  </div>
+
+</div>
+</section>
+
+<!-- /** -----------------------------------------------
+  MARK: メッセージ
+-------------------------------------------------**/ -->
+
+<section class="message">
+  <div class="message-inner">
+    
+    <!-- 見出しとイラストをまとめる親要素 -->
+    <div class="section-title-wrap">
+      <h2>Message</h2>
+      <div class="moon-illust">
+        <img src="images/orange-moon.png" alt="月のイラスト"> 
+      </div>
+    </div>
+
+    
+    <!-- 本文テキストエリア -->
+    <div class="message-text">
+      
+      <div class="message-catchcopy">
+        <span class="color-warm-message">Warm Ideas,</span>
+        <span class="color-blue-message">Clear Direction.</span>
+      </div>
+
+      <div class="message-catchcopy-jp">
+        <span class="color-warm-message">温かいアイディアを、</span>
+        <span class="color-blue-message">伝わるデザインへ</span>
+      </div>
+
+      <p>
+        <span class="block-sm">私が目指すのは、見た目の美しさだけではないデザインです。</span>
+        <span class="block-sm">細部まで情報を整理し、本当に伝えたい想いを形にすること。</span>
+        <span class="block-sm">人に寄り添う視点と、目的を見失わない論理性を大切にしています。</span>
+      </p>
+      
+      <p>
+        <span class="block-sm">メインビジュアルの月と太陽には、そんな私の姿勢を込めました。</span>
+        <span class="block-sm">一見すると対極にあるふたつですが、どちらも異なる光で、</span>
+        <span class="block-sm">私たちの進む道を照らしてくれます。</span> 
+        <span class="block-sm">月のように寄り添い、太陽のように、進む方向を照らす。</span>
+        <span class="block-sm">想いを受け取り、より良い未来へつながるデザインを</span>
+        <span class="block-sm">一つひとつ丁寧につくっていきます。</span>
+      </p>
+
+
+      
+    </div>
+  </div>
+</section>
+
+
+
+
+<!-- /** -----------------------------------------------
+    MARK: Works
+  -------------------------------------------------**/ -->
+
+
+  <section class="works" id="works">
+      <div class="works-inner">
+        
+
+          <div class="section-title-wrap">
+            <h2>Works</h2>
+            <div class="moon-illust">
+              <img src="images/orange-moon.png" alt="月のイラスト"> 
+            </div>
+          </div>
+        
+        
+        <!-- 制作物一覧のグリッド（2列表示用） -->
+        <div class="works-grid">
+          
+          <!-- 1つ目の制作物 -->
+          <article class="works-item">
+            <a href="worklounge.html" target="_blank">
+              <div class="works-img-wrapper">
+                <img src="images/worklounge-mockup-mv.jpg" alt="コワーキングスペース">
+              </div>
+              <div class="works-tags">
+                <span class="tag tag-orange">Webサイト</span>
+                <span class="tag tag-blue">自主制作</span>
+              </div>
+              <p class="works-title">コワーキングスペースLP制作</p>
+            </a>
+          </article>
+      
+          <!-- 2つ目の制作物 -->
+          <article class="works-item">
+            <a href="englishgirls.html">
+              <div class="works-img-wrapper">
+                <img src="images/englishgirls-mockup.jpg" alt="キャンペンバナー（X・Instagram）">
+              </div>
+              <div class="works-tags">
+                <span class="tag tag-orange">バナー</span>
+                <span class="tag tag-blue">自主制作</span>
+              </div>
+              
+              <p class="works-title">キャンペンバナー（X・Instagram）</p>
+            </a>
+          </article>
+          
+
+          <!-- 3つ目の制作物 -->
+          <article class="works-item">
+            <a href="works-josanin.html">
+              <div class="works-img-wrapper">
+                <img src="assets/img/work3.jpg" alt="かなえる助産院">
+              </div>
+              <div class="works-tags">
+                <span class="tag tag-orange">Webサイト</span>
+                <span class="tag tag-blue">実案件</span>
+              </div>
+              <p class="works-title">かなえる助産院</p>
+            </a>
+          </article>
+          
+          <!-- 4つ目の制作物 -->
+          <article class="works-item">
+            <a href="works-baby.html">
+              <div class="works-img-wrapper">
+                <img src="assets/img/work4.jpg" alt="ベビーマッサージ教室">
+              </div>
+              <div class="works-tags">
+                <span class="tag tag-orange">Webサイト</span>
+                <span class="tag tag-blue">実案件</span>
+              </div>
+              <p class="works-title">ベビーマッサージ教室</p>
+            </a>
+          </article>
+
+          <!-- 5つ目の制作物 -->
+          <article class="works-item">
+            <a href="tsutsumu-recruit.html">
+              <div class="works-img-wrapper">
+                <img src="images/tsutsumu-mockup.jpg" alt="ベビー用品会社採用サイト">
+              </div>
+              <div class="works-tags">
+                <span class="tag tag-orange">Webサイト</span>
+                <span class="tag tag-blue">自主制作</span>
+              </div>
+              <p class="works-title">ベビー用品会社採用サイトLP</p>
+            </a><!-- ← ★こちらに移動（画像やテキスト全体を囲む） -->
+          </article>
+          
+          <!-- 6つ目の制作物 -->
+          <article class="works-item">
+            <a href="works-TSUTSUMU.html">
+              <div class="works-img-wrapper">
+                <img src="　" alt="宿泊予約サイトUI/UX改善">
+              </div>
+              <div class="works-tags">
+                <span class="tag tag-orange">Webサイト</span>
+                <span class="tag tag-blue">自主制作</span>
+              </div>
+              <p class="works-title">宿泊予約サイトUI/UX改善</p>
+            </a>
+          </article>       
+        </div>
+
+      <!-- /** -----------------------------------------------
+        MARK: ボタン
+      -------------------------------------------------**/ -->
+      <div class="btn-wrap">
+        <button type="button" class="c-btn btn-more" id="works-more" aria-haspopup="dialog" aria-controls="coming-soon">More</button>
+      </div>
+
+
+      </div>
+    </section>
+
+
+
+<!-- /** -----------------------------------------------
+  MARK: Skills
+-------------------------------------------------**/ -->
+
+<section class="skills" id="skills">
+      <div class="skills-inner">
+        
+
+        <div class="section-title-wrap">
+          <h2>Skills</h2>
+          <div class="moon-illust">
+            <img src="images/orange-moon.png" alt="月のイラスト"> 
+          </div>
+        </div>
+
+          <p class="skills-lead">
+            <span class="block-sm">課題を整理し、ユーザー視点を大切にした</span>
+            <span class="block-sm"> デザインと実装が得意です。</span>
+          </p>
+
+
+        <!-- /** -----------------------------------------------
+          MARK: スキル一覧
+        -------------------------------------------------**/ -->
+        <div class="skills-group">
+          <div class="skills-heading-wrapper">
+            <span class="skills-sub-title">Strength</span>
+            <span class="heading-line js-scroll-line"></span>
+          </div>
+          
+          <div class="skills-grid">
+            
+            <article class="skills-card">
+              <img src="images/icon-derection.png" alt="" class="skills-icon">
+              <span class="skills-number">01</span>
+              <h3 class="skills-item-title">Direction</h3>
+              <p class="skills-item-text">ヒアリングを通して課題を整理し、最適な方向性をご提案します。</p>
+            </article>
+
+            <article class="skills-card">
+              <img src="images/icon-webdesign.png" alt="" class="skills-icon">
+              <span class="skills-number">02</span>
+              <h3 class="skills-item-title">Web Design</h3>
+              <p class="skills-item-text">目的やターゲットに合わせたWebサイトを制作します。</p>
+            </article>
+
+            <article class="skills-card">
+              <img src="images/icon-uidesign.png" alt="" class="skills-icon">
+              <span class="skills-number">03</span>
+              <h3 class="skills-item-title">UI Design</h3>
+              <p class="skills-item-text">使いやすさと見やすさを意識したUI設計を行います。</p>
+            </article>
+
+            <article class="skills-card">
+              <img src="images/icon-graphicdesign.png" alt="" class="skills-icon">
+              <span class="skills-number">04</span>
+              <h3 class="skills-item-title">Graphic Design</h3>
+              <p class="skills-item-text">バナーやロゴなど伝わるビジュアルデザインを制作します。</p>
+            </article>
+
+          </div>
+        </div>
+
+        <!-- /** -----------------------------------------------
+          MARK: スキル一覧
+        -------------------------------------------------**/ -->
+        <div class="skills-group">
+          <div class="skills-heading-wrapper">
+            <span class="skills-sub-title">Tools</span>
+            <span class="heading-line js-scroll-line"></span>
+          </div>
+          
+          <div class="skills-grid tools-grid">
+            
+            <article class="skills-card">
+              <img src="images/icon-figma.jpg" alt="" class="skills-icon">
+              <span class="skills-number">01</span>
+              <h3 class="skills-item-title">Figma</h3>
+              <p class="skills-item-text">ワイヤーフレーム・デザインカンプ、プロトタイプ制作まで対応します。</p>
+            </article>
+
+            <article class="skills-card">
+              <img src="images/icon-ps.jpg" alt="" class="skills-icon">
+              <span class="skills-number">02</span>
+              <h3 class="skills-item-title">Photoshop</h3>
+              <p class="skills-item-text">写真の加工・補正やバナー制作のビジュアルを作成します。</p>
+            </article>
+
+            <article class="skills-card">
+              <img src="images/icon-Illustrator.jpg" alt="" class="skills-icon">
+              <span class="skills-number">03</span>
+              <h3 class="skills-item-title">Illustrator</h3>
+              <p class="skills-item-text">ロゴ・バナー・印刷物などベクターデータを作成します。</p>
+            </article>
+
+            <article class="skills-card">
+              <img src="images/icon-coding.png" alt="" class="skills-icon">
+              <span class="skills-number">04</span>
+              <h3 class="skills-item-title">Coding</h3>
+              <p class="skills-item-text">HTML/CSSを使用したコーディングでWebサイト実装します。</p>
+            </article>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    
+
+
+<!-- /** -----------------------------------------------
+      MARK: About
+    -------------------------------------------------**/ -->
+
+    <section class="about" id="about">
+  <div class="about-inner">
+
+      <div class="section-title-wrap">
+          <h2>About me</h2>
+          <div class="moon-illust">
+            <img src="images/orange-moon.png" alt="月のイラスト"> 
+          </div>
+      </div>
+
+    <div class="about-flex-container">
+
+      <div class="about-image">
+        <p class="about-name">Asumi</p>
+          <div class="about-img-wrapper">
+            <img src="images/profile_picture_facing_right.jpg" alt="Asumi">
+          </div>
+      </div>
+
+      <div class="about-content">
+        <p>
+          <span class="about-text-line">岐阜県出身、東京都在住。</span><span class="about-text-line">新卒で管理栄養士として病院・健診センターに勤務し、</span><span class="about-text-line">栄養指導をはじめ、全体運営や栄養科の採用など</span><span class="about-text-line">幅広い業務を経験しました。</span>
+        </p>
+
+        <p>
+          <span class="about-text-line">その後、IT業界では営業として、お客様の課題を整理し、</span><span class="about-text-line">最適な提案を行う課題解決力を培ってきました。</span>
+        </p>
+
+        <p>
+          <span class="about-text-line">異なる業界で培った「相手に寄り添う姿勢」と</span><span class="about-text-line">「課題解決力」を活かし、</span><span class="about-text-line">現在はデザイナー・ディレクターとして、</span><span class="about-text-line">想いと目的をつなぐデザインを目指しています。</span>
+        </p>
+      </div>
+
+
+
+    </div>     <!-- /** -----------------------------------------------
+      MARK: ボタン
+    -------------------------------------------------**/ -->  
+
+
+    <div class="btn-wrap">
+      <a href="aboutme.html" class="c-btn btn-more">More</a>
+    </div>
+
+
+  </div>   <!-- about-innerに対する終わりのdiv -->
+
+</section>
+
+
+<!-- /** -----------------------------------------------
+  MARK: Contact
+-------------------------------------------------**/ -->
+
+<section class="contact" id="contact">
+    <div class="contact-inner">
+
+      <div class="section-title-wrap">
+        <h2>Contact</h2>
+        <div class="moon-illust">
+          <img src="images/orange-moon.png" alt="月のイラスト"> 
+        </div>
+      </div>
+
+      <p class="contact-lead">
+        お問い合わせいただきありがとうございます。<br>
+        内容を確認のうえ、２営業日以内にご返信いたします。<br>
+        お気軽にお問い合わせください。
+      </p>
+
+      <!-- /** -----------------------------------------------
+        MARK: お問い合わせフォーム
+      -------------------------------------------------**/ -->
+      <form action="https://ssgform.com/s/krKLH34T3Pn6" method="POST" class="contact-form">
+
+        <div class="form-group">
+          <div class="form-label-area">
+            <label for="name">お名前</label>
+            <span class="badge required">必須</span>
+          </div>
+          <input type="text" id="name" name="name" placeholder="氏名" required>
+        </div>
+
+        <div class="form-group">
+          <div class="form-label-area">
+            <label for="company">会社名</label>
+          </div>
+          <input type="text" id="company" name="company" placeholder="株式会社◯◯">
+        </div>
+
+        <div class="form-group">
+          <div class="form-label-area">
+            <label for="email">メールアドレス</label>
+            <span class="badge required">必須</span>
+          </div>
+          <input type="email" id="email" name="email" placeholder="contact_sample@xx.com" required>
+        </div>
+
+        <div class="form-group">
+          <div class="form-label-area">
+            <label for="tel">電話番号</label>
+          </div>
+          <input type="tel" id="tel" name="tel" placeholder="000-1111-22222">
+        </div>
+
+        <div class="form-group">
+          <div class="form-label-area">
+            <label for="message">お問い合わせ内容</label>
+            <span class="badge required">必須</span>
+          </div>
+          <textarea id="message" name="message" rows="8" placeholder="お問い合わせ内容をご入力ください。" required></textarea>
+        </div>
+
+
+        <!-- /** -----------------------------------------------
+          MARK: プライバシーポリシーへの同意
+        -------------------------------------------------**/ -->
+        <div class="form-agreement">
+          <label class="checkbox-container">
+            <input type="checkbox" name="agreement" required>
+            <span class="checkbox-text">
+              <a href="privacy.html" target="_blank" class="privacy-link">プライバシーポリシー</a>に同意する
+            </span>
+          </label>
+        </div>
+
+        <!-- /** -----------------------------------------------
+          MARK: 送信ボタン
+        -------------------------------------------------**/ -->
+        <div class="form-submit-area">
+          <p class="submit-note">
+            入力確認画面や自動返信メールはございません。<br>
+            ご入力内容を確認の上、送信ボタンを押して下さい。
+          </p>
+          <button type="submit" class="c-btn btn-submit">送 信</button>
+        </div>
+
+
+
+
+      </form>
+
+    </div>
+  </section>
+
+
+
+
+<!-- /** -----------------------------------------------
+    MARK: フッター
+  -------------------------------------------------**/ -->
+  <footer class="footer">
+    <p class="copyright">Copyright © 2026 Asumi Portfolio All Rights Reserved.</p>
+  </footer>
+
+
+
+  <!-- /** -----------------------------------------------
+      MARK: JavaScript
+    -------------------------------------------------**/ -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ 
+  <script>
+
+
+
+      document.addEventListener('DOMContentLoaded', () => {
+    // 監視対象の要素（線）をすべて取得
+    const scrollLines = document.querySelectorAll('.js-scroll-line');
+
+    // 画面に入ってきたときの処理を設定
+    const observerOptions = {
+      root: null, // 画面全体を基準にする
+      rootMargin: '0px',
+      threshold: 0.2 // 要素が20%画面に入ったら発火
+    };
+
+    const observer = new IntersectionObserver((entries, observer) => {
+      entries.forEach(entry => {
+        // 画面内に入ったら
+        if (entry.isIntersecting) {
+          // アニメーション用のクラスを付与
+          entry.target.classList.add('is-active');
+          // 一度表示されたら監視を解除（何度も動かさないため）
+          observer.unobserve(entry.target);
+        }
+      });
+    }, observerOptions);
+
+  // すべての線に監視を設定
+  scrollLines.forEach(line => {
+    observer.observe(line);
+  });
+
+
+// h1とサブテキスト内の文字を1文字ずつ分解してアニメーション設定
+const targets = document.querySelectorAll('.mainvisual-content h1 span, .mainvisual-sub-text span');
+let currentDelay = 0.5; // アニメーション開始までの待ち時間（秒）
+const charInterval = 0.05; // 1文字ごとの表示間隔（秒）
+
+targets.forEach((target) => {
+  const text = target.textContent;
+  target.textContent = ''; // テキストを一旦クリア
+
+  for (let char of text) {
+    const charSpan = document.createElement('span');
+    charSpan.textContent = char;
+    charSpan.classList.add('mv-char');
+    charSpan.style.animationDelay = `${currentDelay}s`;
+    
+    target.appendChild(charSpan);
+    currentDelay += charInterval;
+  }
+});
+
+
+});
+  </script>
+
+
+
+
+
+
+
+
+
+
+  <dialog class="coming-soon" id="coming-soon" aria-labelledby="coming-soon-title" aria-describedby="coming-soon-description">
+    <button type="button" class="coming-soon__close" aria-label="閉じる" autofocus>×</button>
+    <img class="coming-soon__moon" src="images/comingsoon.jpg" alt="" width="180" height="180">
+    <h2 id="coming-soon-title">Coming Soon</h2>
+    <p id="coming-soon-description">ただいま準備中です。<br>公開まで、もうしばらくお待ちください。</p>
+  </dialog>
+  <script src="js/coming-soon.js" defer></script>
+  <script src="js/navigation.js" defer></script>
+  <script src="js/scroll-reveal.js" defer></script>
+</body>
+
+
+</html>

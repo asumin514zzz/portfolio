@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <!-- /** -----------------------------------------------
+    MARK: ページ設定・ヘッダー情報
+  -------------------------------------------------**/ -->
+  <head>
+
+    <!-- 文字コード -->
+    <meta charset="UTF-8">
+
+    <!-- ブラウザで表示されるタイトル -->
+    <title>About Me  Asumi Portfolio</title>
+
+     <!-- ↓★ここにGoogle Fontsのコードを差し込みます！ -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+    <!-- ↑★ここまで -->
+
+    <!-- スタイルシート -->
+    <link href="assets/css/reset.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/style.css?v=20260917-3" rel="stylesheet" type="text/css">
+
+    <!-- 表示領域をデバイス依存にする、viewportを設定する -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+
+  </head>
+
+<body class="aboutme-page">
+
+
+
+<!-- /** -----------------------------------------------
+  MARK: ナビゲーション
+-------------------------------------------------**/ -->
+
+<button class="hamburger-btn" id="js-hamburger" type="button" aria-controls="js-nav" aria-expanded="false" aria-label="メニューを開く">
+  <span></span><span></span><span></span>
+</button>
+<nav class="mainvisual-nav" id="js-nav" aria-label="メインナビゲーション">
+  <ul>
+    <!-- 同じフォルダのトップページ内にある各セクションへ移動 -->
+    <li><a href="index.html#works">Works</a></li>
+    <li><a href="index.html#about">About</a></li>
+    <li><a href="index.html#skills">Skills</a></li>
+    <li><a href="index.html#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- /** -----------------------------------------------
+  MARK: メインコンテンツ
+-------------------------------------------------**/ -->
+
+<main class="container">
+    <!-- /** -----------------------------------------------
+      MARK: About me・タイトル
+    -------------------------------------------------**/ -->
+    <section class="section-header-aboutme">
+      <h2 class="en-title">About me</h2>
+    </section>
+
+
+    <!-- /** -----------------------------------------------
+      MARK: プロフィール
+    -------------------------------------------------**/ -->
+    <section class="profile-card">
+      <div class="profile-image">
+        <img src="images/profile_picture_facing_right.jpg" alt="Asumi">
+      </div>
+      <div class="profile-meta">
+        <div class="profile-name-group">
+          <h1 class="profile-name">Asumi</h1>
+          <span class="profile-role">Web Designer / Director</span>
+        </div>
+        <div class="profile-text-box">
+          <p>岐阜県多治見市出身 東京都在住<br>
+          管理栄養士の経験やIT営業での経験を経て、<br>
+          想いをカタチにするWebデザイナー・ディレクターとして活動しています。</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- /** -----------------------------------------------
+      MARK: History・経歴
+    -------------------------------------------------**/ -->
+    <section class="history-card">
+      <h3 class="history-title">History</h3>
+
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-date">1991年</div>
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <h4>岐阜県多治見市に誕生</h4>
+            <p>自然豊かな「タイルのまち」多治見市で、<br>身近に「ものづくり」がある環境に囲まれて育つ</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-date">2010年 3月</div>
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <h4>岐阜県立多治見北高校を卒業</h4>
+            <p>理系で化学を学ぶうちに栄養学に興味を持ち、<br>栄養学の道に進む</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-date">2014年 3月</div>
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <h4>兵庫県の大学を卒業</h4>
+            <p>管理栄養士の養成課程を卒業<br>卒業と同時に国家試験を受験し、合格</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-date">2014年 3月</div>
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <h4>新卒で横浜市の病院へ就職（管理栄養士）</h4>
+            <p>病院・健診センターにて管理栄養士として勤務<br>
+            特定保健指導をはじめ、栄養管理や採用業務、栄養科課長としての他職種との調整など幅広く経験<br>
+            在職中に調理師免許を取得</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-date">2018年 2月</div>
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <h4>IT企業へ転職</h4>
+            <p>人材営業・キャリアカウンセラーとして、クライアントの課題ヒアリングやフリーランスへの案件紹介、エンジニアの転職支援に従事<br>
+            IT企業への支援を行う中で、課題の本質を可視化するデザインの力に魅了され、Webデザイナー・ディレクターの道を志す。</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-date">2025年 3月</div>
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <h4>Webデザインの学習を開始</h4>
+            <p>想いを可視化するデザインの世界に魅了される<br>
+            情報設計・UI/UXデザイン・コーディングなど<br>
+            実践課題に取り組む</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-date">2025年 6月</div>
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <h4>実案件の獲得</h4>
+            <p>スクール受講期間中にLP制作を2件受注<br>
+            要件定義から・ワイヤーフレームデザインカンプ作成・でコーディング・サーバーアップまで対応 納品済み</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-date">現在</div>
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <h4>Webデザイナー・ディレクターとして活動開始</h4>
+            <p>お客様の想いと目的を丁寧に繋ぐWebサイト制作を目指して活動中</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- /** -----------------------------------------------
+      MARK: 資格・趣味
+    -------------------------------------------------**/ -->
+    <section class="bottom-cards">
+      <!-- /** -----------------------------------------------
+        MARK: 取得資格
+      -------------------------------------------------**/ -->
+      <div class="sub-card">
+        <h3>取得資格</h3>
+        <ul>
+          <li>管理栄養士（国家資格）</li>
+          <li>調理師</li>
+          <li>キッズキッチンインストラクター</li>
+          <li>フードスペシャリスト</li>
+          <li>フードサイエンティスト</li>
+        </ul>
+      </div>
+
+      <!-- /** -----------------------------------------------
+        MARK: 好きなこと・趣味
+      -------------------------------------------------**/ -->
+      <div class="sub-card">
+        <h3>好きなこと・趣味</h3>
+        <ul>
+          <li>パンお菓子作り</li>
+          <li>美味しいものを食べること</li>
+          <li>サッカー観戦</li>
+          <li>飼ってるうさぎと遊ぶ</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- /** -----------------------------------------------
+      MARK: クリフトンストレングスから見る、私の強み
+    -------------------------------------------------**/ -->
+    <section class="strengths-section" aria-labelledby="strengths-title">
+      <header class="strengths-header">
+        <h2 id="strengths-title"><span>クリフトンストレングスから見る、</span><span>私の強み</span></h2>
+        <a class="strengths-report-link" href="#clifton-modal" aria-haspopup="dialog" aria-controls="clifton-modal">MyCliftonStrengthsを見る</a>
+      </header>
+      <div class="strengths-grid">
+        <!-- /** -----------------------------------------------
+          MARK: 強み01・共感性
+        -------------------------------------------------**/ -->
+        <article class="strength-card">
+          <span class="strength-number">01</span>
+          <h3>共感性×社交性<span class="strength-en">EMPATHY</span></h3>
+          <img class="strength-illustration" src="images/strength-placeholder.svg" alt="" width="280" height="190" loading="lazy">
+          <h4>想いを汲み取る力</h4>
+          <p class="strength-description"><span>相手の立場や気持ちを想像し、</span><span>言葉になっていない想いまで</span><span>丁寧に受け取ります。</span><span>ヒアリングやクライアントとの</span><span>コミュニケーションに活かしています。</span></p>
+          <div class="strength-uses">
+            <p>こんな場面で活かしています</p>
+            <ul><li>クライアントへのヒアリング</li><li>潜在的なニーズの言語化</li><li>チーム内のコミュニケーション</li></ul>
+          </div>
+        </article>
+        <!-- /** -----------------------------------------------
+          MARK: 強み02・成長促進
+        -------------------------------------------------**/ -->
+        <article class="strength-card">
+          <span class="strength-number">02</span>
+          <h3>成長促進×ポジティブ<span class="strength-en">DEVELOPER</span></h3>
+          <img class="strength-illustration" src="images/strength-placeholder.svg" alt="" width="280" height="190" loading="lazy">
+          <h4>人の強みを引き出す力</h4>
+          <p class="strength-description"><span>相手の良さや可能性に目を向け、</span><span>より良い方向へ進めるよう関わります。</span><span>チームでの制作や、関係者を</span><span>巻き込みながら進める場面で</span><span>活かせる強みです。</span></p>
+          <div class="strength-uses">
+            <p>こんな場面で活かしています</p>
+            <ul><li>チームメンバーのサポート</li><li>相手の強みを活かした役割提案</li><li>前向きなフィードバック</li></ul>
+          </div>
+        </article>
+        <!-- /** -----------------------------------------------
+          MARK: 強み03・最上志向
+        -------------------------------------------------**/ -->
+        <article class="strength-card">
+          <span class="strength-number">03</span>
+          <h3>最上志向<span class="strength-en">MAXIMIZER</span></h3>
+          <img class="strength-illustration" src="images/strength-placeholder.svg" alt="" width="280" height="190" loading="lazy">
+          <h4>より良く磨き上げる力</h4>
+          <p class="strength-description"><span>「できている」で終わらせず、</span><span>より良くするための工夫を考えます。</span><span>デザインでも、目的やユーザー視点</span><span>から改善を重ね、完成度を高めること</span><span>を大切にしています。</span></p>
+          <div class="strength-uses">
+            <p>こんな場面で活かしています</p>
+            <ul><li>デザインの改善・ブラッシュアップ</li><li>目的達成のための提案</li><li>品質へのこだわり</li></ul>
+          </div>
+        </article>
+      </div>
+      <!-- /** -----------------------------------------------
+        MARK: My Belief・大切にしている想い
+      -------------------------------------------------**/ -->
+      <div class="belief-panel">
+        <p class="belief-label">My Belief</p>
+        <div class="belief-copy">
+          <h3><span>人の想いに寄り添い、</span><span>より良い未来を一緒につくる。</span></h3>
+          <p><span>これらの強みを活かし、クライアント・ユーザー・チームの</span><span>すべての人にとって価値のあるデザインを目指します。</span></p>
+        </div>
+        <img class="belief-illustration" src="images/strength-placeholder.svg" alt="" width="280" height="190" loading="lazy">
+      </div>
+    </section>
+
+    <!-- /** -----------------------------------------------
+      MARK: MyCliftonStrengths・モーダル
+    -------------------------------------------------**/ -->
+    <dialog id="clifton-modal" class="clifton-modal" aria-labelledby="clifton-modal-title">
+      <form method="dialog"><button class="clifton-close" aria-label="モーダルを閉じる">×</button></form>
+      <h2 id="clifton-modal-title">MyCliftonStrengths</h2>
+      <!-- レポートの画像やリンクを、こちらの仮コンテンツと差し替えてください。 -->
+      <p class="clifton-placeholder">レポート掲載用の仮スペースです。</p>
+    </dialog>
+  </main>
+
+<!-- /** -----------------------------------------------
+  MARK: Backボタン
+-------------------------------------------------**/ -->
+<div class="btn-wrap privacy-btn-wrap">
+  <!-- トップページの「#contact」の場所へ直接戻る -->
+  <a href="index.html#contact" class="c-btn btn-back">Back</a>
+</div>
+
+
+    <!-- /** -----------------------------------------------
+      MARK: JavaScript
+    -------------------------------------------------**/ -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript">
+      //jQueryの記述をここに書く
+      $(function() {
+  
+      });
+    </script>
+
+    <script>
+      // MARK: MyCliftonStrengthsモーダルの開閉
+      const cliftonLink = document.querySelector('.strengths-report-link');
+      const cliftonModal = document.querySelector('#clifton-modal');
+      cliftonLink.addEventListener('click', (event) => {
+        // 外部URLに差し替えた場合は、通常のリンクとして移動します。
+        if (cliftonLink.getAttribute('href') !== '#clifton-modal') return;
+        event.preventDefault();
+        cliftonModal.showModal();
+        document.documentElement.classList.add('clifton-modal-open');
+      });
+      cliftonModal.addEventListener('close', () => {
+        document.documentElement.classList.remove('clifton-modal-open');
+        cliftonLink.focus();
+      });
+      cliftonModal.addEventListener('click', (event) => {
+        const rect = cliftonModal.getBoundingClientRect();
+        if (event.target === cliftonModal && (event.clientX < rect.left || event.clientX > rect.right || event.clientY < rect.top || event.clientY > rect.bottom)) cliftonModal.close();
+      });
+    </script>
+    <script src="js/navigation.js" defer></script>
+  <script src="js/scroll-reveal.js" defer></script>
+</body>
+
+</html>

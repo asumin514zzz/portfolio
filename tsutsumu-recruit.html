@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <!-- /** -----------------------------------------------
+    MARK: ページ設定・ヘッダー情報
+  -------------------------------------------------**/ -->
+  <head>
+
+    <!-- 文字コード -->
+    <meta charset="UTF-8">
+
+    <!-- ブラウザで表示されるタイトル -->
+    <title>ベビー用品事業の採用サイト</title>
+
+     <!-- ↓★ここにGoogle Fontsのコードを差し込みます！ -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+    <!-- ↑★ここまで -->
+
+    <!-- スタイルシート -->
+    <link href="assets/css/reset.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/style.css?v=20260917-3" rel="stylesheet" type="text/css">
+
+    <!-- 表示領域をデバイス依存にする、viewportを設定する -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+
+  </head>
+
+<body class="tsutsumu-page">
+
+
+<!-- /** -----------------------------------------------
+  MARK: ナビゲーション
+-------------------------------------------------**/ -->
+
+<button class="hamburger-btn" id="js-hamburger" type="button" aria-controls="js-nav" aria-expanded="false" aria-label="メニューを開く">
+  <span></span><span></span><span></span>
+</button>
+<nav class="mainvisual-nav" id="js-nav" aria-label="メインナビゲーション">
+  <ul>
+    <li><a href="index.html#top">Top</a></li>
+    <li><a href="index.html#works">Works</a></li>
+    <li><a href="index.html#about">About</a></li>
+    <li><a href="index.html#skills">Skills</a></li>
+    <li><a href="index.html#contact">Contact</a></li>
+  </ul>
+</nav>
+
+
+<!-- /** -----------------------------------------------
+  MARK: タイトル
+-------------------------------------------------**/ -->
+
+<main class="work-detail-main">
+  <!-- タイトル -->
+  <h1 class="detail-title">ベビー用品事業の採用サイト</h1>
+
+  <!-- タグエリア -->
+  <div class="detail-tags">
+    <span class="tag tag-orange">Webサイト</span>
+    <span class="tag tag-blue">自主制作</span>
+  </div>
+
+  <!-- 画像エリア -->
+  <div class="detail-main-img">
+    <img src="images/tsutsumu-mockup.jpg" alt="TSUTSUMU採用サイト制作物画像">
+  </div>
+
+<!-- /** -----------------------------------------------
+    MARK: 制作概要
+  -------------------------------------------------**/ -->
+  <div class="detail-summary-box">
+    <p class="summary-line">オンラインスクール「SHElikes」PROデザイナーコースの課題として、ベビー用品事業を取り扱う「TSUTSUMU株式会社」の採用サイトを制作しました。</p>
+    
+    <dl class="project-info">
+      <div class="project-info__row">
+        <dt>制作時期</dt>
+        <dd>2026年7月</dd>
+      </div>
+      <div class="project-info__row">
+        <dt>制作期間</dt>
+        <dd>デザイン：1週間／コーディング：2週間</dd>
+      </div>
+      <div class="project-info__row">
+        <dt>使用ツール</dt>
+        <dd>Figma／Photoshop／Illustrator</dd>
+      </div>
+      <div class="project-info__row">
+        <dt>使用言語・ライブラリ</dt>
+        <dd>HTML／CSS／jQuery</dd>
+      </div>
+      <div class="project-info__row">
+        <dt>担当範囲</dt>
+        <dd>ペルソナ設計／ムードボード作成／ワイヤーフレーム／デザイン／コーディング（レスポンシブ対応）／サーバーアップ</dd>
+      </div>
+    </dl>
+
+  </div>
+
+
+<!-- /** -----------------------------------------------
+  MARK: 目次
+-------------------------------------------------**/ -->
+
+<div class="detail-toc-box">
+    <p class="toc-label">目次</p>
+    <ul class="toc-list">
+      <li><a href="#production">制作物</a></li>
+      <li><a href="#requirements">課題要件</a></li>
+      <li>
+        <a href="#information">情報設計</a>
+        <ul class="toc-sub-list">
+          <li><a href="#persona">要件をもとに考案したペルソナ</a></li>
+          <li><a href="#user-story">セクションとユーザーストーリー</a></li>
+        </ul>
+      </li>
+      <li><a href="#concept">デザインコンセプト</a></li>
+      <li>
+        <a href="#points-design">デザインの工夫</a>
+        <ul class="toc-sub-list">
+          <li><a href="##sticky-recruit-buttons">募集職種・エントリーボタンの常時追従</a></li>
+          <li><a href="#about-us"><span>（私たちについて）</span><span class="inline-block">サービスの世界観を伝える</span></a></li>
+      </li>
+      <li><a href="#points-coding">コーディングの工夫</a></li>
+
+      <li><a href="#learning">本課題で学んだこと</a></li>
+    </ul>
+  </div>
+
+<!-- /** -----------------------------------------------
+  MARK: 制作物
+-------------------------------------------------**/ -->
+
+<section id="production" class="detail-section">
+  <h2 class="section-title">制作物</h2>
+
+  <!-- 制作物ラベル & URLブロック -->
+  <div class="work-link-block">
+    <a href="https://tsutsmu-recruit.netlify.app/" target="_blank" rel="noopener noreferrer" class="work-url">
+      実際のサイトを見る
+    </a>
+  </div>
+
+
+<div class="site-preview">
+  <figure class="site-preview-pc">
+    <figcaption>PC</figcaption>
+    <img
+      src="images/tsutsumu-pc.jpg"
+      alt="TSUTSUMU採用サイトのPC版デザイン"
+      loading="lazy"
+    >
+  </figure>
+
+  <figure class="site-preview-sp">
+    <figcaption>SP</figcaption>
+    <img
+      src="images/tsutsumi-sp.jpg"
+      alt="TSUTSUMU採用サイトのスマートフォン版デザイン"
+      loading="lazy"
+    >
+  </figure>
+</div>
+
+
+
+<!-- /** -----------------------------------------------
+  MARK: 課題要件
+-------------------------------------------------**/ -->
+<section id="requirements" class="detail-section">
+  <h2 class="section-title">課題要件</h2>
+
+  <!-- 白い背景の要件書ボックス -->
+  <div class="requirements-box">
+    <h3 class="requirements-subtitle">要件書</h3>
+    
+    <table class="requirements-table">
+      <tr>
+        <th>目的</th>
+        <td>
+          <ul class="requirements-list">
+            <li>LPを通してエントリーをしてもらうこと</li>
+            <li>採用強化のためできるだけたくさんの応募がきて欲しいが、エントリーがあれば誰でもいいわけではなく、カルチャーフィットする方に応募してもらいたい</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <th>クライアント情報</th>
+        <td>
+          <p class="client-name">クライアント名：TSUTSUMU 株式会社 ※架空の企業</p>
+          <ul class="requirements-list">
+            <li>ベビー用品をメインに販売</li>
+            <li>ママの育児をサポートするコミュニティ事業</li>
+            <li>家族みんなが幸せになるフォトブック事業 などを展開</li>
+            <li>軸はベビー用品だが、今後ママ・パパ、家族向けのサービスも展開していく予定</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <th>ターゲット</th>
+        <td>
+          <ul class="requirements-list">
+            <li>転職希望の方（男女問わず）</li>
+            <li>報酬面よりもTSUTSUMUが作っていきたい世界に強く共感してくださる方</li>
+            <li>各職種において全くの未経験よりは経験を重視したいが、それよりもカルチャーフィットしている方</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <th>トンマナ</th>
+        <td>
+          明確なブランドトンマナがまだ決まっていないので、事業内容にあうトンマナを自由に提案して欲しい
+        </td>
+      </tr>
+      <tr>
+        <th>入れたい要素</th>
+        <td>
+            TSUTSUMUのロゴ（カラーのみ変更可能）
+        </td>
+      </tr>
+    </table>
+  </div>
+</section>
+
+
+<!-- /** -----------------------------------------------
+  MARK: 情報設計
+-------------------------------------------------**/ -->
+<section id="information" class="detail-section">
+  <!-- セクションのグレーの見出し -->
+  <h2 class="section-title">情報設計</h2>
+
+
+<!-- /** -----------------------------------------------
+  MARK: ペルソナ
+-------------------------------------------------**/ -->
+<section id="persona" class="persona-section">
+
+  <div class="requirements-box">
+    <h3 class="point-sub-title">要件を元に考案したペルソナ</h3>
+
+    <table class="requirements-table">
+      <tbody>
+        <tr>
+          <th>基本プロフィール</th>
+          <td>
+            <div class="persona-profile-flex">
+              <ul class="requirements-list">
+                <li>木村 聡(37)</li>
+                <li>愛知県小牧市在住（コロナ禍に東京から地元へ移住）</li>
+                <li>既婚、妻と子供2人と4人暮らし 妻はデザイナー</li>
+                <li>フルスタックエンジニア12年目</li>
+                <li>新卒で大手SIer勤務5年、その後ベンチャー企業に転職</li>
+              </ul>
+              <div class="persona-profile-image">
+                <img src="images/tsustumu-kimura-family.jpg" alt="ペルソナのイメージ">
+              </div>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <th>ライフスタイル・価値観</th>
+          <td>
+            <ul class="requirements-list">
+              <li>平日の過ごし方：フルタイム勤務、子供の送迎などあり</li>
+              <li>休日の過ごし方：家族で過ごすことが多い</li>
+              <li>趣味／関心ごと：サッカー・子供の習い事・エンジニアとしての新しい技術習得</li>
+              <li>大切にしてること：家族・子供との時間</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <th>背景・課題</th>
+          <td>
+            <ul class="requirements-list">
+              <li>勤務時間の制約による育児のすれ違い：固定勤務（9:00〜18:00）のため、子供が希望している習い事（サッカー）の送迎やサポートの時間とスケジュールが重なっている。</li>
+              <li>出社回帰による負担の増大：出社回帰の傾向に伴い月2〜3回の東京本社への出社が発生。帰宅が深夜になり、妻にワンオペ育児の負担が集中している。</li>
+              <li>柔軟な働き方への強いニーズ：家族との時間を大切にしながらキャリアを継続するため、フルリモートおよびフルフレックス制度のある環境への移行を強く希望している。</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <th>ペルソナに届けたい価値</th>
+          <td>
+            <ul class="requirements-list">
+              <li>家族と仕事、どちらも諦めずに自分らしく働ける環境を提供する</li>
+              <li>学び続けられる環境の中で、一人ひとりの成長を後押しする</li>
+              <li>性別に関係なく、誰もが安心して長く活躍できる職場を実現する</li>
+            </ul>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+
+
+<!-- /** -----------------------------------------------
+  MARK: 情報設計 ユーザーストーリー
+-------------------------------------------------**/ -->
+
+<section class="user-story-section">
+  <div class="user-story-container">
+    <h3 class="point-sub-title"></h3>
+
+    <div class="requirements-box">
+    <h3 class="point-sub-title">情報設計</h3>
+
+      <!-- カード1：メインビジュアル -->
+      <div class="user-story-card">
+        <div class="user-story-icon-area">
+          <img src="images/icon-mv-userstory.jpg" alt="メインビジュアルアイコン" class="user-story-icon">
+        </div>
+        <div class="user-story-content">
+          <span class="user-story-label">メインビジュアル</span>
+          <p class="user-story-text">企業の目指す未来（ビジョン）を直感的に理解する</p>
+        </div>
+      </div>
+
+      <!-- 矢印 -->
+      <div class="user-story-arrow">
+        <img src="images/arrow-orange.png" alt="↓">
+      </div>
+
+      <!-- カード2：私たちについて -->
+      <div class="user-story-card">
+        <div class="user-story-icon-area">
+          <img src="images/icon-about-userstory.jpg" alt="私たちについてアイコン" class="user-story-icon">
+        </div>
+        <div class="user-story-content">
+          <span class="user-story-label">私たちについて</span>
+          <p class="user-story-text">ビジョンを深く理解し、その先を読み進めたくなる</p>
+        </div>
+      </div>
+
+      <!-- 矢印 -->
+      <div class="user-story-arrow">
+        <img src="images/arrow-orange.png" alt="↓">
+      </div>
+
+          <!-- カード3：事業について -->
+      <div class="user-story-card">
+        <div class="user-story-icon-area">
+          <img src="images/icon-works-userstory.jpg" alt="事業についてアイコン" class="user-story-icon">
+        </div>
+        <div class="user-story-content">
+          <span class="user-story-label">事業について</span>
+          <p class="user-story-text">「赤ちゃん」「家族」に関する会社であることがつかめる</p>
+        </div>
+      </div>
+
+      <!-- 矢印 -->
+      <div class="user-story-arrow">
+        <img src="images/arrow-orange.png" alt="↓">
+      </div>
+
+      <!-- カード4：働く環境 -->
+      <div class="user-story-card">
+        <div class="user-story-icon-area">
+          <img src="images/icon-workplace-userstory.jpg" alt="働く環境アイコン" class="user-story-icon">
+        </div>
+        <div class="user-story-content">
+          <span class="user-story-label">働く環境</span>
+          <p class="user-story-text">自分のライフプランとも照らし合わせながら働き方のビジョンを描ける</p>
+        </div>
+      </div>
+
+      <!-- 矢印 -->
+      <div class="user-story-arrow">
+        <img src="images/arrow-orange.png" alt="↓">
+      </div>
+
+        <!-- カード5：メンバー紹介-->
+      <div class="user-story-card">
+        <div class="user-story-icon-area">
+          <img src="images/icon-people-userstory.jpg" alt="メンバー紹介アイコン" class="user-story-icon">
+        </div>
+        <div class="user-story-content">
+          <span class="user-story-label">メンバー紹介</span>
+          <p class="user-story-text">実際の社員のストーリーを知り、雰囲気や具体的な働き方を考えられる</p>
+        </div>
+      </div>
+
+      <!-- 矢印 -->
+      <div class="user-story-arrow">
+        <img src="images/arrow-orange.png" alt="↓">
+      </div>
+
+        <!-- カード6：募集職種-->
+      <div class="user-story-card">
+        <div class="user-story-icon-area">
+          <img src="images/icon-careers-userstory.jpg" alt="募集職種アイコン" class="user-story-icon">
+        </div>
+        <div class="user-story-content">
+          <span class="user-story-label">募集職種</span>
+          <p class="user-story-text">事業に対する自分の関わり方を決め実際のエントリーに繋げる</p>
+        </div>
+      </div>
+
+      <!-- 矢印 -->
+      <div class="user-story-arrow">
+        <img src="images/arrow-orange.png" alt="↓">
+      </div>
+
+        <!-- カード7：エントリーメッセージ-->
+      <div class="user-story-card">
+        <div class="user-story-icon-area">
+          <img src="images/icon-entryform-userstory.jpg" alt="募集職種アイコン" class="user-story-icon">
+        </div>
+        <div class="user-story-content">
+          <span class="user-story-label">エントリーフォーム</span>
+          <p class="user-story-text">実際の行動に起こす</p>
+        </div>
+      </div>
+
+
+  </div>
+</section>
+
+
+<!-- /** -----------------------------------------------
+  MARK: デザインコンセプト
+-------------------------------------------------**/ -->
+
+<section id="concept" class="detail-section">
+  <!-- セクションのグレーの見出し -->
+  <h2 class="section-title">デザインコンセプト</h2>
+
+  <!-- /** -----------------------------------------------
+    MARK: デザイン方針
+  -------------------------------------------------**/ -->
+  <div class="direction-box">   
+    <div class="direction-text">
+      <p>転職を検討している男女問わず幅広い求職者をターゲットに設定しています。</p>
+      <p>メインカラーには、性別を問わず親しみやすい「水色」を採用し、採用サイトに必要な「信頼感」「誠実さ」「清潔感」を表現。
+          アクセントカラーの「黄色」では、「温もり」「家族」「優しさ」を表現しています。</p>
+      <p>企業の誠実な姿勢を伝えつつ、家族やプライベートな時間を大切にしながら働くことができる、温かみが感じられるビジュアル設計を目指しました。</p>
+    </div>
+  </div>
+
+  <!-- /** -----------------------------------------------
+    MARK: ムードボード
+  -------------------------------------------------**/ -->
+  <div class="moodboard-area">
+    <img src="images/tsutsmu-moodboard.jpg" alt="ムードボード" class="moodboard-img">
+    </p>
+  </div>
+
+</section>
+
+
+
+<!-- /** -----------------------------------------------
+  MARK: デザインの工夫
+-------------------------------------------------**/ -->
+<section id="points-design" class="detail-section">
+  <!-- セクションのグレーの見出し -->
+  <h2 class="section-title">デザインの工夫</h2>
+
+
+        <!-- /** -----------------------------------------------
+          MARK: 募集職種・エントリーボタンの常時追従
+        -------------------------------------------------**/ -->
+        <div id="sticky-recruit-buttons" class="point-block">
+          <h3 class="point-sub-title">
+            募集職種・エントリーボタンの常時追従
+          </h3>
+
+        <div class="point-img-wrap-sticky-button">
+          <img src="images/tsutsumu-sticky-button.jpg" alt="CONCEPT画像の工夫">
+        </div>
+        <div class="point-desc-box">
+          <ul class="point-desc-list">
+            <li>
+              <span class="point-label">設定した仮説：</span>
+              採用サイトを訪れるユーザーは、すでに企業や仕事内容に対して一定の関心や高い志望度を持っていると想定しました。
+            </li>
+            <li>
+              <span class="point-label">デザインの工夫点：</span>
+              ページを読み進める中で「どんな職種があるのだろう？」と気になった際、スクロールの手間なくいつでも情報を確認し、そのままエントリーへ進めるようサイド追従型の導線を配置しました。
+            </li>
+            <li>
+              <span class="point-label">UI/UXの狙い：</span>
+              企業のカルチャーをじっくり読んでもらうことの重要性も考慮しつつ、ユーザーの「知りたい」「応募したい」という熱量やタイミングを逃さない、ストレスフリーな導線設計を目指しました。
+            </li>
+          </ul>
+        </div>
+      </div>
+
+
+
+<!-- /** -----------------------------------------------
+      MARK: セクションごとの配色切り替えとあしらいの統一感
+    -------------------------------------------------**/ -->
+    <div id="info-cleanup" class="point-block">
+      <h3 class="point-sub-title">セクションごとの配色切り替えとあしらいの統一感</h3>
+      <div class="point-img-wrap-soapbubbles-bear-and-baby-tsutsumu">
+        <img src="images/soapbubbles-bear-and-baby-tsutsumu.jpg" alt="セクションごとの情報整理の工夫">
+      </div>
+      <div class="point-desc-box">
+        <ul class="point-desc-list">
+          <li>
+            <span class="point-label">背景と配色設計：
+            </span>
+            テキストの読みやすさを最優先に考えたシンプルな単色背景を採用しつつ、情報の関連性に合わせてセクションごとに異なる水玉のあしらいを取り入れてメリハリを持たせました。
+          </li>
+          <li>
+            <span class="point-label">世界観をつなぐ演出：
+            </span>
+            最後のメッセージセクションに配置した赤ちゃんとぬいぐるみの写真内にもシャボン玉を取り入れ、背景のあしらいとリンクさせることで、サイト全体に一体感を持たせました。
+          </li>
+          <li>
+            <span class="point-label">デザインの狙い：
+            </span>
+            単なる装飾にとどまらず、細部のモチーフにストーリー性を持たせることで、サイトのコンセプトや温かみのある世界観を自然に印象づける設計にしました。
+          </li>
+
+        </ul>
+      </div>
+    </div>
+
+
+  </div>
+</section>
+
+<!-- /** -----------------------------------------------
+  MARK: コーディングの工夫
+-------------------------------------------------**/ -->
+
+<section id="points-coding" class="detail-section">
+  <!-- セクションのグレーの見出し -->
+  <h2 class="section-title">コーディングの工夫</h2>
+
+      <!-- /** -----------------------------------------------
+        MARK: Intersection Observerを活用した「グループ別スクロールアニメーション」
+      -------------------------------------------------**/ -->
+      <div id="concept-img" class="point-block">
+        <h3 class="point-sub-title">Intersection Observerを活用した「グループ別スクロールアニメーション」</h3>
+
+        <div class="point-desc-box">
+          <ul class="point-desc-list">
+            <li>
+              <span class="point-label">見た目の向上：</span>             
+              各セクション内の要素がスクロールに合わせて「ふわっ」と上品に表示されるよう、JavaScriptの IntersectionObserver を用いて実装しました。
+            <li>
+              <span class="point-label">データ構造によるコードのすっきり化（保守性の向上）：</span>
+              アニメーションさせたい対象の要素をセクションごとに fadeGroups という配列オブジェクトとして一元管理しています。これにより、要素が増減したりセレクタを変更したりする場合でも、コードをあちこち書き換える必要がなくなり、メンテナンス性が大きく向上しました。
+            </li>
+            <li>
+              <span class="point-label">パフォーマンスへの配慮：</span>
+              スクロールイベント（scroll イベント）のたびに位置を計算するのではなく、IntersectionObserver を利用しているため、ブラウザへの負荷（カクつきなど）を抑えたスムーズな動作を実現しています。
+            </li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+
+
+    <!-- /** -----------------------------------------------
+      MARK: 重要メッセージの差別化アニメーション
+    -------------------------------------------------**/ -->
+    <div id="highlighting-key-messages" class="point-block">
+      <h3 class="point-sub-title">重要メッセージの差別化アニメーション</h3>
+      <div class="point-img-wrap">
+
+        <img src="images/slogan-tsutsumu.jpg" alt="TSUTSUMUスローガン">
+        <img src="images/entry-message-tsutsumu.jpg" alt="エントリーメッセージ">
+      </div>
+      <div class="point-desc-box">
+        <ul class="point-desc-list">
+          <li>
+            <span class="point-label">視覚的な演出の工夫：</span>
+            サイトの核となるメインメッセージや最後のエントリーセクションには、他のコンテンツとは異なる「1文字ずつ出現するアニメーション」を採用しました。
+          </li>
+          <li>
+            <span class="point-label">効果的な視線誘導：</span>
+            サイト全体に動きのメリハリを持たせることで、ユーザーに一番印象付けたい情報へ自然に注意を惹きつけるような、細部の演出にこだわりました。
+          </li>
+
+        </ul>
+      </div>
+    </div>
+
+
+  </div>
+</section>
+
+
+<!-- /** -----------------------------------------------
+  MARK: 本課題で学んだこと
+-------------------------------------------------**/ -->
+<section id="learning" class="detail-section">
+  <!-- セクションのグレーの見出し -->
+  <h2 class="section-title">本課題で学んだこと</h2>
+
+  <!-- 学んだことのコンテンツボックス -->
+  <div class="learning-container">
+    
+    <!-- /** -----------------------------------------------
+      MARK: 逆算したスケジューリングの重要性
+    -------------------------------------------------**/ -->
+    <div class="learning-block">
+      <p class="learning-sub-title">逆算したスケジューリングの重要性</p>
+      <ul class="learning-list">
+        <li>企画・デザインから、コーディング、サーバーアップ（デプロイ）までの全工程を一人で担当したことで、プロジェクト全体を見通したスケジュール管理の重要性を深く学びました。</li>
+        <li>各工程の期限を明確に逆算して設定したことにより、スケジュールに追われるのではなく、余裕を持って品質のブラッシュアップや最終確認を行うことができました。</li>
+      </ul>
+    </div>
+
+    <!-- /** -----------------------------------------------
+      MARK: デザイン段階における余白やルールの体系化
+    -------------------------------------------------**/ -->
+    <div class="learning-block">
+      <p class="learning-sub-title">デザイン段階における余白やルールの体系化</p>
+      <ul class="learning-list">
+        <li>デザインを正確かつ効率的にコーディングに落とし込むためには、デザインカンプ作成の段階から余白のルール（マージンやパディングの数値設計）を緻密に詰めておく必要があると痛感しました。</li>
+        <li>事前に構造や数値を整理しておくことが、手戻りの防止やコードの美しさ、デザインの一貫性（クオリティの担保）に直結することを学びました。</li>
+      </ul>
+    </div>
+
+    <!-- /** -----------------------------------------------
+      MARK: マルチデバイス（レスポンシブ）を前提としたUI/UX設計
+    -------------------------------------------------**/ -->
+    <div class="learning-block">
+      <p class="learning-sub-title">マルチデバイス（レスポンシブ）を前提としたUI/UX設計</p>
+      <ul class="learning-list">
+        <li>PCとスマートフォン（SP）それぞれのデバイス特性やユーザーの視線の動きを考慮したデザイン・コーディングを実践しました。</li>
+        <li>単に画面幅に合わせてレイアウトを縮小するのではなく、「それぞれのデバイスでいかに視認性・操作性を高めるか」という視点を持つことの重要性を、実際の制作を通して深く実感しました。</li>
+      </ul>
+    </div>
+
+    <!-- /** -----------------------------------------------
+      MARK: Backボタン
+    -------------------------------------------------**/ -->
+    <div class="back-btn-wrap">
+      <!-- トップページのWorksセクションへ戻る共通ボタン -->
+      <a href="index.html#works" class="c-btn btn-back">Back</a>
+    </div>
+
+  </div>
+</section>
+
+
+
+
+
+
+    <!-- /** -----------------------------------------------
+      MARK: JavaScript
+    -------------------------------------------------**/ -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript">
+      //jQueryの記述をここに書く
+      $(function() {
+  
+      });
+    </script>
+
+    <script src="js/navigation.js" defer></script>
+  <script src="js/scroll-reveal.js" defer></script>
+</body>
+
+</html>
